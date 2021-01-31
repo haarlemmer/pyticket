@@ -12,7 +12,7 @@ class TicketDB(object):
         Usage: addActivity(<activity name>)
         Return value: Activity ID (string)
         """
-        self.db['activities'].append({'activiyName': activityName, 'tickets': {}})
+        self.db['activities'].append({'activityName': activityName, 'tickets': {}})
         return len(self.db['activities'])-1
     def addTicket(self,activityID,ticketID):
         """
