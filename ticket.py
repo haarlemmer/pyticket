@@ -1,4 +1,3 @@
-
 import json
 class TicketDB(object):
     def createDB(self):
